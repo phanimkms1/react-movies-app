@@ -5,8 +5,8 @@ import Button from "@material-ui/core/Button";
 class Header extends Component {
     render(){
         return(
-            <div className="headerContainer">
-            <Button className="button" variant="contained" color="default">Login</Button>
+            <div className="app-header">
+            <Button className="login-button" variant="contained" color="default">Login</Button>
             </div>
         )
     }

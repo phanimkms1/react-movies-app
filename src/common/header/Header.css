@@ -1,8 +1,9 @@
-.headerContainer{
-    background-color: black;
-    height:50px;
+.app-header{
+    background-color:#222;
+    height:36px;
+    padding:8px 32px 8px 16px;
 }
-.button{
+.login-button{
     float:right;
-    text-align: center;
+    
 }
