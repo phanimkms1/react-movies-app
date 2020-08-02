@@ -88,7 +88,7 @@ class Details extends Component {
         }
 
         return (<div className="details">
-            <Header />
+            <Header showBookShowButton="true"/>
             <Typography className="back" onClick={this.backToHomeHandler}>
                 &#60; Back To Home</Typography>
             <div className="flex-containerDetails">
