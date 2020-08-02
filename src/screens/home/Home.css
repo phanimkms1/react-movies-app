@@ -32,12 +32,13 @@
 }
 
 .left {
-    width: 76%;
+    width: 80%;
 }
 
 .right {
     padding-top: 20px;
-    width: 24%;
+    width: 20%;
+    padding-right: 50px;
 }
 
 .released-movie-grid-item {
