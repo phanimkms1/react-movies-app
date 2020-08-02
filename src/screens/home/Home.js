@@ -44,7 +44,7 @@ const styles = theme => ({
         cursor: 'pointer'
     },
     formControl: {
-        margin: theme.spacing.unit,
+        margin: theme.spacing(1),
         minWidth: 240,
         maxWidth: 240
      },

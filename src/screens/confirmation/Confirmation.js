@@ -22,8 +22,8 @@ import green from '@material-ui/core/colors/green';
 
 const styles = theme => ({
   close: {
-    width: theme.spacing.unit * 4,
-    height: theme.spacing.unit * 4,
+    width: theme.spacing(4),
+    height: theme.spacing(4),
   },
   success: {
     color: green[600],
@@ -95,7 +95,7 @@ class Confirmation extends Component {
 
             <Card className="cardStyle">
               <CardContent>
-                <Typography variant="headline" component="h2">
+                <Typography variant="h3" >
                   SUMMARY
                 </Typography>
                 <br />
